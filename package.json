@@ -24,11 +24,7 @@
     "@codeceptjs/configure": "^0.5.0",
     "@codeceptjs/ui": "^0.2.0",
     "@types/node": "^20.11.30",
-    "@wdio/selenium-standalone-service": "^5.16.10",
-    "codeceptjs": "3.5.12",
-    "playwright": "1.41.2",
-    "puppeteer": "^2.0.0",
-    "testcafe": "^1.7.0",
-    "webdriverio": "^5.16.11"
+    "codeceptjs": "3.7.5",
+    "playwright": "1.57.0"
   }
 }
