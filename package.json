@@ -8,9 +8,6 @@
   "keywords": [],
   "author": "kobenguyent, davert",
   "license": "ISC",
-  "dependencies": {
-    "ts-node": "10.9.2"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codeceptjs/examples-ts.git"
@@ -26,6 +23,7 @@
     "@types/node": "^20.11.30",
     "codeceptjs": "3.7.5",
     "playwright": "1.57.0",
-    "tsconfig-paths": "^4.2.0"
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "4.21.0"
   }
 }

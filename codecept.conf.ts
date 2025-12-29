@@ -1,5 +1,5 @@
 exports.config = {
-  require: ["ts-node/register"],
+  require: ["ts-node/register", "tsx/esm"],
   output: "./output",
   helpers: {
     Playwright: {
