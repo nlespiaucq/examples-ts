@@ -8,6 +8,12 @@ exports.config = {
       show: true,
     },
   },
+  plugins: {
+    trace: {
+      require: "./trace.plugin",
+      enabled: true,
+    },
+  },
 
   gherkin: {
     features: "./todomvc-tests/features/*.feature",
