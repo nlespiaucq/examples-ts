@@ -1,5 +1,5 @@
 import assert from "assert";
-import { todoMvcUrl } from "@config/urls";
+import { todoMvcUrl } from "#config/urls";
 
 const I = actor();
 
