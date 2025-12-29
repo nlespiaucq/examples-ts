@@ -20,7 +20,7 @@ const nthTodoEditField = (nth) =>
 const nthTodoItem = (nth) =>
   locate(".todo-list li").at(nth).as(`${nth} todo item`);
 
-export = {
+export default {
   goto() {
     I.amOnPage("https://todomvc.com/examples/react/dist/");
     I.refreshPage();

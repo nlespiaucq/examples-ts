@@ -1,4 +1,5 @@
 exports.config = {
+  require: ["tsx/esm"],
   output: "./output",
   helpers: {
     Playwright: {
