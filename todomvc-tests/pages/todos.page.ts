@@ -1,4 +1,5 @@
 import assert from "assert";
+import { todoMvcUrl } from "@config/urls";
 
 const I = actor();
 
@@ -22,7 +23,7 @@ const nthTodoItem = (nth) =>
 
 export = {
   goto() {
-    I.amOnPage("https://todomvc.com/examples/react/dist/");
+    I.amOnPage(todoMvcUrl);
     I.refreshPage();
     I.executeScript(() => sessionStorage.clear());
     I.executeScript(() => console.error("Boom!"));
